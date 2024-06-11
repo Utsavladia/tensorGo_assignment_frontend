@@ -50,7 +50,6 @@ npm start
 
 2. **Log in using Google Authentication**
    Click on the "Login with Google" button and follow the Google OAuth flow to authenticate.
-   ![image](https://github.com/Utsavladia/tensorGo_assignment_frontend/assets/124615886/c5f02a1a-ea30-4883-b7ce-0a2dcc657a29)
 
 
 4. **Provide Feedback**
