@@ -18,7 +18,7 @@ To set up and run the frontend application on your local machine, follow these s
 To clone the repository, run the following command:
 
 ```bash
-git clone https://github.com/your-username/feedback-frontend.git](https://github.com/Utsavladia/tensorGo_assignment_frontend
+git clone https://github.com/Utsavladia/tensorGo_assignment_frontend
 cd feedback-frontend
 ```
 
