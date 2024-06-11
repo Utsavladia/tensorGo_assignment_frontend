@@ -20,3 +20,23 @@ To clone the repository, run the following command:
 ```bash
 git clone https://github.com/your-username/feedback-frontend.git
 cd feedback-frontend
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+### 3. Configure Environment Variables
+## Create a .env file in the root directory of the project and add your Google Client ID. This is necessary for Google authentication to work.
+```bash
+REACT_APP_GOOGLE_CLIENT_ID=your-google-client-id
+```
+
+### 4. Run the Application
+```bash
+npm start
+```
+## The application should now be running on http://localhost:3000.
+
+
+
