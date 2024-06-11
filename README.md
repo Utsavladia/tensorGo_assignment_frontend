@@ -50,15 +50,17 @@ npm start
 
 2. **Log in using Google Authentication**
    Click on the "Login with Google" button and follow the Google OAuth flow to authenticate.
+   ![image](https://github.com/Utsavladia/tensorGo_assignment_frontend/assets/124615886/c5f02a1a-ea30-4883-b7ce-0a2dcc657a29)
 
-3. **Provide Feedback**
+
+4. **Provide Feedback**
    You'll be redirected to the feedback page. Here, you can provide feedback on features, pricing, or usability.
-![image](https://github.com/Utsavladia/tensorGo_assignment_frontend/assets/124615886/cafe0d36-547c-4c76-805c-c787fe4b5d66)
+![image](https://github.com/Utsavladia/tensorGo_assignment_frontend/assets/124615886/d2b1e7a1-2656-4d44-a318-c83670d7f2e5)
 
-4. **Submit Feedback**
+5. **Submit Feedback**
    After providing your feedback, click the "Send" button. Your feedback will be submitted to the backend and stored in the MongoDB database.
 
-5. **View Submitted Feedback**
+6. **View Submitted Feedback**
    You can view the submitted feedback by navigating to the respective category section (features, pricing, or usability). The feedback will be displayed in real-time.
 
 
