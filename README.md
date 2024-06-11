@@ -27,7 +27,7 @@ cd feedback-frontend
 npm install
 ```
 ### 3. Configure Environment Variables
-## Create a .env file in the root directory of the project and add your Google Client ID. This is necessary for Google authentication to work.
+#### Create a .env file in the root directory of the project and add your Google Client ID. This is necessary for Google authentication to work.
 ```bash
 REACT_APP_GOOGLE_CLIENT_ID=your-google-client-id
 ```
@@ -36,7 +36,8 @@ REACT_APP_GOOGLE_CLIENT_ID=your-google-client-id
 ```bash
 npm start
 ```
-## The application should now be running on http://localhost:3000.
-
+#### The application should now be running on http://localhost:3000.
+### 5. Ensure Backend is Running
+#### Make sure the backend server is running on http://localhost:5000 as the frontend is configured to communicate with the backend at this address.
 
 
