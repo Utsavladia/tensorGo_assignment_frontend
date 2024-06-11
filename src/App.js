@@ -12,7 +12,12 @@ function App() {
       const res = await axios.post("http://localhost:5000/auth/google", {
         token: response.credential,
       });
-      console.log(res.data);
+      console.log(res.data.user);
+      const name = res?.data.user.given_name + " " + res.data.user.family_name;
+      const profile = res?.data?.user?.picture;
+      localStorage.setItem("userName", name);
+      localStorage.setItem("userProfilePic", profile);
+
       // You can handle the response here, such as storing the token and redirecting to another page
     } catch (error) {
       console.error("Error:", error);

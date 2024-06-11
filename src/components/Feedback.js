@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Comments from "./commnets.js";
-import GiveFeedback from "./GiveFeedback.js";
 
 const Feedback = () => {
   const [activeCategory, setActiveCategory] = useState("features");
@@ -10,10 +9,10 @@ const Feedback = () => {
   };
 
   return (
-    <div className="flex flex-col m-2 rounded-xl font-semibold overflow-hidden h-full relative ">
-      <div>
+    <div className="flex flex-col m-2 rounded-xl font-semibold overflow-hidden max-h-1vh relative w-2/3 bg-black">
+      <div className="flex w-full">
         <button
-          className={`px-16 py-2 mr-1 rounded-t-xl ${
+          className={`flex-1 px-4 py-2 mr-1 rounded-t-xl ${
             activeCategory === "features"
               ? "bg-black text-white"
               : "bg-gray-200 text-black"
@@ -23,7 +22,7 @@ const Feedback = () => {
           Features
         </button>
         <button
-          className={`px-16 py-2 mr-1 rounded-t-xl ${
+          className={`flex-1 px-4 py-2 mr-1 rounded-t-xl ${
             activeCategory === "pricing"
               ? "bg-black text-white"
               : "bg-gray-200 text-black"
@@ -33,7 +32,7 @@ const Feedback = () => {
           Pricing
         </button>
         <button
-          className={`px-16 py-2  rounded-t-xl ${
+          className={`flex-1 px-4 py-2 rounded-t-xl ${
             activeCategory === "usability"
               ? "bg-black text-white"
               : "bg-gray-200 text-black"
@@ -44,7 +43,6 @@ const Feedback = () => {
         </button>
       </div>
       <Comments category={activeCategory} />
-      <GiveFeedback />
     </div>
   );
 };
