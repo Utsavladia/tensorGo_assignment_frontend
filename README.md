@@ -41,3 +41,24 @@ npm start
 #### Make sure the backend server is running on http://localhost:5000 as the frontend is configured to communicate with the backend at this address.
 
 
+
+
+## End-to-End Flow
+
+1. **Visit the Frontend Application**
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+2. **Log in using Google Authentication**
+   Click on the "Login with Google" button and follow the Google OAuth flow to authenticate.
+
+3. **Provide Feedback**
+   You'll be redirected to the feedback page. Here, you can provide feedback on features, pricing, or usability.
+![image](https://github.com/Utsavladia/tensorGo_assignment_frontend/assets/124615886/cafe0d36-547c-4c76-805c-c787fe4b5d66)
+
+4. **Submit Feedback**
+   After providing your feedback, click the "Send" button. Your feedback will be submitted to the backend and stored in the MongoDB database.
+
+5. **View Submitted Feedback**
+   You can view the submitted feedback by navigating to the respective category section (features, pricing, or usability). The feedback will be displayed in real-time.
+
+
